@@ -1,17 +1,19 @@
 {
   "name": "wedding-site",
   "version": "1.0.0",
+  "main": "app-server.js",
   "engines": {
     "node": "4.1.2",
     "npm": "3.5.2"
   },
   "description": "",
   "dependencies": {
-    "webpack": "^1.12.2"
+    "webpack": "^1.12.2",
+    "express": "^4.13.3"
   },
   "scripts": {
     "start": "npm run production",
-    "production": "webpack -p"
+    "production": "webpack -p && node app-server.js"
   },
   "author": "",
   "license": "ISC"
