@@ -5,3 +5,4 @@ Run the following commands to build `bundle.js` file and then run the server poi
 npm install
 COSMIC_BUCKET=your-bucket-slug npm start
 ```
+Then go to [http://localhost:3000](http://localhost:3000)
