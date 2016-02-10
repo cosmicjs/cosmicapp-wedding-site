@@ -1,5 +1,9 @@
 #Angular JS Wedding Site
-
+Run the following commands to build `bundle.js` file:
+```
+npm install
+npm start
+```
 ####Get Started
 In ```app.js``` set your bucket slug:
 ```javascript
