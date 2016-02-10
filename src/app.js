@@ -4,7 +4,7 @@
 ======================== */
 var app = {};
 app.config = {};
-app.config.bucket_slug = "wedding-site";
+app.config.bucket_slug = process.env.COSMIC_BUCKET || "wedding-site";
 app.config.url = "https://api.cosmicjs.com/v1";
 app.config.mediaurl = "https://cosmicjs.com/uploads";
 
