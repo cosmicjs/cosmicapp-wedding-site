@@ -1,4 +1,4 @@
 WAIT=30
 ATTEMPTS=10
-/   {{ section.global['site-title'] }}
+/   Carol and Jack Wedding Website
 
